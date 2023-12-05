@@ -173,6 +173,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="D:\Project\algorithmReview\build\search_module.vcxproj">
+      <Project>{5F23672A-53D7-350C-A210-9832072605E3}</Project>
+      <Name>search_module</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="D:\Project\algorithmReview\build\sort_module.vcxproj">
       <Project>{9D9A6EAE-C52F-3403-8D8F-FA9366CC737A}</Project>
       <Name>sort_module</Name>
